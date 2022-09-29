@@ -1,0 +1,284 @@
+/* Logo man site xxx.video.com */
+.img-logo{
+    background: #000;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: .1rem;
+}
+
+.img-logo p{
+    color: red;
+    padding-right: .1rem;
+}
+
+/* ----------------Menu ----------------------- */
+.menu-burger{
+    width: 30px;
+    padding: .5rem;
+}
+
+.menu-burger div{
+    height: 4px;
+    width: 100%;
+    background:rgb(189, 182, 182);
+    margin-bottom: .3rem;
+    border-radius: 5rem;
+}
+
+/* ---------------- end ------------- */
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*  header */
+body{
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    grid-column: 1 / 7;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .menu-initial{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .flex-direction{
+    display: flex;
+}
+
+/* header .setting{
+    display: flex;
+    flex-direction: column;
+} */
+header .searcher{
+    display: flex;
+}
+
+header .menu-initial .input input{
+    padding: .4rem 0;
+    border: solid 2px rgba(192, 189, 189, 0.829);border-radius: .2rem;
+}
+
+header .menu-initial .input, .menu-initial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+}
+
+header .menu-initial .input button{
+    padding: .2rem 1rem;
+    background: rgb(211, 209, 209);
+    border: solid 2px rgba(192, 189, 189, 0.829);border-radius: .2rem;
+    border-left: none;
+    margin-left: -3.5px;
+}
+
+header .setting{
+   display: flex;
+   flex-direction: column;
+   padding: .5rem;
+}
+
+#categoria{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.589);
+    border: none;
+}
+.conta{
+    background: rgb(245, 25, 25);
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+/* ----------- section----------- */
+.section-first{
+    grid-column: 1 / 7;
+}
+
+.section-first h1{
+    margin: 1rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.section-second{
+    grid-column: 1 / 7;
+}
+/* ----------------- section --------------------- */
+.section-second{
+    grid-column: 1 / 7;
+    font-family: sans-serif;
+    font-size: .850rem;
+    font-weight: bold;
+}
+.section-second ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: .5rem 1rem;
+    background: rgb(226, 223, 223);
+}
+.section-second #filter{
+    border: solid 1px rgb(168, 168, 168);
+    padding: .2rem;
+    background: #ddd;
+}
+.section-second ul li p{
+    color: red;
+}
+.section-second ul li{
+    display: flex;
+    list-style: none;
+    padding: .5rem;
+}
+
+/* ------------------- section-items ---------------- */
+.section-items{
+    grid-column: 2 / 6;
+    font-family: sans-serif;
+    font-size: .850rem;
+    font-weight: bold;
+}
+.section-items #block-number{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: .5rem; */
+}
+.section-items #block-number li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    border:solid 1px rgb(190, 188, 188);
+    margin: .5rem;
+}
+/* --------------- Media ---------------- */
+ul li{
+    list-style: none;
+}
+.main-content{
+    grid-column: 1 / 7;
+    padding: 1rem;
+}
+.main-content .content ul{
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    grid-gap: .5rem;
+}
+.main-content .content ul li{
+    background: #000;
+    width: 100%;
+    height: 180px;
+}
+/* conteiner */
+.conteiner a{
+    grid-column: 1 / 7;
+    font-family: sans-serif;
+    font-size: .850rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    text-decoration: none;
+}
+.conteiner a p{
+    padding: .5rem;
+}
+.conteiner a p:first-child{
+    color: rgb(161, 170, 184);
+}
+.conteiner a p:last-child{
+    color: #111;
+    
+}
+/* link */
+a{
+    text-decoration: none;
+}
+.li-1{
+    background: #fff !important;
+    margin-bottom: 2rem !important;
+}
+.li-1 .video span{
+    background: red;
+    width: 50px;
+    height: 15px;
+    color: #fff;
+    font-weight: bold;
+    padding: .2rem;
+    text-align: right;
+    border-radius: .2rem;
+    margin: .5rem;
+}
+.li-1 .video{
+    width: 100%;
+    height: 80%;
+    background: #000000;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+}
+.span{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+.li-1{
+    margin-bottom: 1rem;
+}
+.descript{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: .5rem;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+.descript p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: .2rem 0;
+    padding: .5rem;
+}
+.descript p span{
+    background: #807c7c;
+    color: #fff;
+    padding: .2rem;
+    font-size: .8rem;
+    border-radius: .2rem;
+    margin: 0 .5rem;
+}
+.play{
+    width: 55px;
+    height: 55px;
+}
